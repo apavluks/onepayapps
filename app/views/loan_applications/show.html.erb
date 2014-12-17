@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>PersonId:</strong>
+  <%= @loan_application.personid %>
+</p>
+
+<p>
+  <strong>Loantype:</strong>
+  <%= @loan_application.loantype %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @loan_application.date %>
+</p>
+
+<p>
+  <strong>Loanamount:</strong>
+  <%= @loan_application.loanamount %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @loan_application.comments %>
+</p>
+
+<%= link_to 'Edit', edit_loan_application_path(@loan_application) %> |
+<%= link_to 'Back', loan_applications_path %>

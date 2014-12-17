@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  loantype: MyString
+  date: 2014-12-17 07:28:29
+  loanamount: 9.99
+  comments: MyString
+
+two:
+  loantype: MyString
+  date: 2014-12-17 07:28:29
+  loanamount: 9.99
+  comments: MyString

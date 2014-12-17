@@ -9,4 +9,4 @@ OnePay Extension Apps
 Feel free to access [application](http://onepayapps.herokuapp.com/loan_applications).
 
 > ## Applications:
-> -Loan Management Application 
+> - Loan Management Application 

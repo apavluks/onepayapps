@@ -7,11 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-  <%= link_to "Home", root_path %>
-  <%= link_to "Loans", loan_applications_path %>
-  <%= link_to "Help", home_help_path %>
-  <%= link_to "Login", root_path %>
+  
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Loans", loan_applications_path %></li>
+      <li><%= link_to "Help", home_help_path %></li>
+      <li><%= link_to "Login", root_path %></li>
+    </ul>
+  </div>
   
 <%= yield %>
 

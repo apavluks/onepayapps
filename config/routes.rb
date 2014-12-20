@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  get 'home/help'
+  get 'home/loan_applications'
+
   resources :loan_applications
   
-  root to: 'loan_applications#index'
+  root to: 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
